@@ -107,7 +107,7 @@ class RadiodjRestInstance extends InstanceBase {
 			uri += `&arg=${arg}`
 		}
 
-		uri = encodeURI(cmd)
+		uri = encodeURI(uri)
 
 		if (cmd.length > 0) {
 			this.log('debug', `Get: ${uri}`)

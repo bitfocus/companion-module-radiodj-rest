@@ -3,7 +3,7 @@
 	"name": "radiodj-rest",
 	"shortname": "radiodj",
 	"description": "",
-	"version": "2.0.0",
+	"version": "0.0.0",
 	"license": "MIT",
 	"repository": "git+https://github.com/bitfocus/companion-module-radiodj-rest.git",
 	"bugs": "https://github.com/bitfocus/companion-module-radiodj-rest/issues",
@@ -18,7 +18,7 @@
 		"type": "node18",
 		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
-		"entrypoint": "..\\src\\index.js"
+		"entrypoint": "../src/index.js"
 	},
 	"manufacturer": "RadioDJ",
 	"products": ["REST API"],
