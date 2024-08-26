@@ -35,6 +35,16 @@ class RadiodjRestInstance extends InstanceBase {
 	}
 
 	/**
+	 * Clean up the instance before it is destroyed.
+	 *
+	 * @public
+	 * @since 1.0.0
+	 */
+	async destroy() {
+		this.log('debug', 'destroy', this.id)
+	}
+
+	/**
 	 * Creates the configuration fields for web config.
 	 *
 	 * @returns {Array} the config fields
